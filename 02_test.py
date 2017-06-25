@@ -44,7 +44,7 @@ print([SegName(i) for i in Segments()])
 cnt = len(Segments())
 seg1 = FirstSeg()
 print(seg1)
-for i in range(cnt-1):
+for i in range(cnt):
   seg1 = NextSeg(seg1)
   print(hex(seg1) + " " + SegName(seg1))
   
