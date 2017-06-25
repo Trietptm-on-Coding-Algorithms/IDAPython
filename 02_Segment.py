@@ -47,4 +47,3 @@ for i in range(cnt):
   print(hex(seg1) + " " + SegName(seg1))
   seg1 = NextSeg(seg1)
   
-# *** Function ***
